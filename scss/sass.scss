@@ -2,6 +2,7 @@
 @import 'vars';
 
 body{
+    margin: 0;
     header{
         height: 3em;
         background-color: $Tamno-plava;
@@ -91,7 +92,7 @@ body{
         background-color: $Svetlo-siva-1;
         div{
             display: inline-block;
-            padding: 2% 12% 2% 12%;
+            padding: 2% 12% 2% 18%;
             figure{
                 position: relative;
                 float: left;
@@ -149,11 +150,11 @@ body{
             border: none;
         }
         .crveno{
-            background-color: red;
+            background-color: $Narandzasta;
             color: white;
         }
         .crvenob{
-            background-color: red;
+            background-color: $Narandzasta;
             color: white;
             border: 1px solid grey;
         }
@@ -185,7 +186,7 @@ body{
         div{
             position: absolute;
             top: 30%;
-            left: 12%;
+            left: 19%;
             width: 50%;
             margin: 2% auto 2% auto;
         }
@@ -194,7 +195,7 @@ body{
             top: 30%;
             left: 47%;
             width: 50%;
-            background-color: red;
+            background-color: $Narandzasta;
             text-align: center;
             margin: 2% auto 2% auto;
             min-height: 4em;
@@ -227,6 +228,15 @@ body{
         }
     }
 
-
-
+    footer{
+        height: 1.5em;
+        padding-top: 0.4em;
+        background-color: $Tamno-plava;
+        color: white;
+        text-align: center;
+        margin: 0;
+        span{
+            color: $Narandzasta;
+        }
+    }
 }
