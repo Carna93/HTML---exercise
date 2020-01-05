@@ -62,9 +62,11 @@ body{
             background-color: $pozadina-naslova-prveSekcije;
             text-align: center;
             h1{
+                font: $Web-fontovi;
                 margin: 0;
             }
             p{
+                font: $Web-fontovi;
                 margin: 0;
             }
         }
@@ -75,6 +77,7 @@ body{
             margin-bottom: 2%;
             margin-top: 2%;
             input{
+                font-size: 16px;
                 text-align: center;
                 width: 8em;
                 height: 2em;
@@ -128,12 +131,16 @@ body{
     .cetvrtaSekcija{
         text-align: center;
         h1{
+            font: $Web-fontovi;
             color: $Naslovi;
             margin-bottom: 5%;
         }
         p{
             color: $Boja-fonta;
             margin-bottom: 3%;
+        }
+        input{
+            display: none;
         }
         table, tr, td{
             margin: auto;
@@ -260,6 +267,11 @@ body{
             }
         }
     }
+    .cetvrtaSekcija{
+        input{
+            display: none;
+        }
+    }
     .petaSekcija{
         background-color: $Svetlo-siva-1;
         position: relative;
@@ -291,6 +303,138 @@ body{
         }
     }
 }
-
+}
+@media screen and (max-width:300px){
+    body{
+        header{
+            height: 16em;
+            nav{
+                .NewYork{
+                    width: 100%; 
+                }
+                ul{
+                    text-align: center;
+                    margin: 0 0 0 17%;
+                    li{
+                        display: block;
+                    }
+                }
+            }
+        }
+        .prvaSekcija{
+            position: relative;
+            background-image: none;
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100px;
+            div{
+                position: absolute;
+                top: 7%;
+                left: 10%;
+                width: 85%;
+                height: 3em;
+                background-color: $pozadina-naslova-prveSekcije;
+                text-align: center;
+                h1{
+                    font: $Web-fontovi;
+                    margin: 0;
+                }
+                p{
+                    font: $Web-fontovi;
+                    font-size: small;
+                    margin: 0;
+                    text-align: justify;
+                }
+            }
+        }
+        .drugaSekcija{
+            form{
+                float: none;
+                margin-left: 25%;
+                input{
+                    font-size: 6px;
+                    width: 20%;
+                }
+            }
+        }
+        .trecaSekcija{
+            div{
+                padding: 2% 12% 2% 2%;
+                figure{
+                    width: 100%;
+                    &:hover{
+                        figcaption{
+                            left: 2.9%;
+                        }
+                    }
+                }
+            }
+        }
+        .cetvrtaSekcija{
+            position: relative;
+            text-align: center;
+            min-height: 7em;
+            h1{
+                font: $Web-fontovi;
+                color: $Naslovi;
+                margin-bottom: 5%;
+            }
+            p{
+                color: $Boja-fonta;
+                margin-bottom: 3%;
+            }
+            input{
+                display: inline-block;
+                position: absolute;
+                top: 75%;
+                left: 30%;
+                text-align: center;
+                padding: 0.5em;
+                border-radius: 20px;
+                border-style: groove;
+                background-color: white;
+                color: $Boja-fonta;
+            }
+            table{
+                display: none;
+            }
+        }
+        .petaSekcija{
+            background-color: $Svetlo-siva-1;
+            position: relative;
+            min-height: 700px;
+            div{
+                position: absolute;
+                top: 15%;
+                width: 80%;
+                left: 10%;
+                .mapa{
+                    width: 100%;
+                }
+            }
+            form{
+                position: absolute;
+                top: 60%;
+                width: 80%;
+                left: 10%;
+                min-height: 2em;
+                select{
+                    width: 20%;
+                }
+                .prviRed{
+                    width: 45%;
+                }
+                .ceoRed{
+                    width: 74.9%;
+                }
+                textarea{
+                    width: 74.9%;;
+                }
+            }
+        }
+    }
 }
 
