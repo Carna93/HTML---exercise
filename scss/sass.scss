@@ -226,3 +226,71 @@ body{
         }
     }
 }
+@media screen and (max-width:600px){
+body{
+    header{
+        nav{
+            .NewYork{
+                padding: 1em 2em 1em 2em;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+            ul{
+                li{
+                    padding: 1em 1em 1em 1em; 
+                }
+            }
+        }
+    }
+    .drugaSekcija{
+        form{
+            margin-left: 30%;
+        }
+    }
+    .trecaSekcija{
+        div{
+            figure{
+                width: 40%;
+                &:hover{
+                    figcaption{
+                        left: 4.4%;
+                    }
+                }
+            }
+        }
+    }
+    .petaSekcija{
+        background-color: $Svetlo-siva-1;
+        position: relative;
+        min-height: 650px;
+        div{
+            position: absolute;
+            top: 15%;
+            width: 100%;
+            left: 25%;
+        }
+        form{
+            position: absolute;
+            top: 60%;
+            width: 80%;
+            left: 10%;
+            min-height: 2em;
+            select{
+                width: 15%;
+            }
+            .prviRed{
+                width: 67%;
+            }
+            .ceoRed{
+                width: 87.5%;
+            }
+            textarea{
+                width: 87.5%;;
+            }
+        }
+    }
+}
+
+}
+
