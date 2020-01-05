@@ -125,4 +125,55 @@ body{
             
         }
     }
+    .cetvrtaSekcija{
+        text-align: center;
+        h1{
+            color: $Naslovi;
+            margin-bottom: 5%;
+        }
+        p{
+            color: $Boja-fonta;
+            margin-bottom: 3%;
+        }
+        table, tr, td{
+            margin: auto;
+            padding: 0.2em;
+        }
+        tr{
+            width: 60%;
+        }
+        td{
+            width: 15%;
+        }
+        .prazno{
+            border: none;
+        }
+        .crveno{
+            background-color: red;
+            color: white;
+        }
+        .crvenob{
+            background-color: red;
+            color: white;
+            border: 1px solid grey;
+        }
+        .plavo{
+            background-color: $Tamno-plava;
+            color: white;
+        }
+        .plavob{
+            background-color: $Tamno-plava;
+            color: white; 
+            border: 1px solid grey;
+        }
+        .belo{
+            background-color: white;
+            color: $Boja-fonta;
+            border: 1px solid grey;
+        }
+    }
+
+    
+
+
 }
