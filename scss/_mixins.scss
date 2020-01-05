@@ -1,0 +1,17 @@
+@mixin pozicijaPeteSekcije{
+    position: absolute;
+    top: 30%;
+    width: 50%;
+}
+@mixin marginePadding{
+    margin: 1em;
+    padding: 1em;
+}
+@mixin borderColor{
+    background-color: $Narandzasta;
+    color: white;
+}
+@mixin borderColor2{
+    background-color: $Tamno-plava;
+    color: white;
+}
