@@ -172,8 +172,61 @@ body{
             border: 1px solid grey;
         }
     }
+    .petaSekcija{
+        background-color: $Svetlo-siva-1;
+        position: relative;
+        min-height: 450px;
+        h1{
+            color: $Naslovi;
+            text-align: center;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+        div{
+            position: absolute;
+            top: 30%;
+            left: 12%;
+            width: 50%;
+            margin: 2% auto 2% auto;
+        }
+        form{
+            position: absolute;
+            top: 30%;
+            left: 47%;
+            width: 50%;
+            background-color: red;
+            text-align: center;
+            margin: 2% auto 2% auto;
+            min-height: 4em;
 
-    
+            select{
+                float: left;
+                width: 19.5%;
+                margin: 1em;
+                padding: 1em;
+            }
+            .prviRed{
+                float: left;
+                width: 67%;
+                margin: 1em;
+                color: $Boja-fonta;
+                padding: 1em;
+            }
+            .ceoRed{
+                width: 91%;
+                margin: 1em;
+                color: $Boja-fonta;
+                padding: 1em;
+            }
+            textarea{
+                width: 91%;
+                margin: 1em;
+                color: $Boja-fonta;
+                padding: 1em;
+            }
+        }
+    }
+
 
 
 }
