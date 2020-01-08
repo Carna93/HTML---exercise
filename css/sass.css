@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  margin: 0;
+}
+body header {
+  height: 3em;
+  background-color: #374249;
+}
+body header nav .NewYork {
+  float: left;
+  padding: 1em 4em 1em 3em;
+  text-decoration: none;
+  color: white;
+  background-color: #f75311;
+  height: 1em;
+}
+body header nav .NewYork img {
+  float: left;
+  width: 1.6em;
+  height: 1.5em;
+}
+body header nav .NewYork:hover {
+  text-decoration: underline;
+}
+body header nav ul {
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+}
+body header nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em 2em 1em 2em;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+body header nav ul li a:hover {
+  text-decoration: underline;
+}
+body .prvaSekcija {
+  position: relative;
+  background-image: url("../slike/intro.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 300px;
+}
+body .prvaSekcija div {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  width: 60%;
+  height: 3em;
+  background-color: #46464677;
+  text-align: center;
+}
+body .prvaSekcija div h1 {
+  font: "Roboto", sans-serif;
+  margin: 0;
+}
+body .prvaSekcija div p {
+  font: "Roboto", sans-serif;
+  margin: 0;
+}
+body .drugaSekcija form {
+  margin-left: 50%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+body .drugaSekcija form input {
+  font-size: 16px;
+  text-align: center;
+  width: 8em;
+  height: 2em;
+  border-radius: 20px;
+  border-style: groove;
+}
+body .drugaSekcija form input:hover {
+  background-color: gray;
+  color: white;
+}
+body .trecaSekcija {
+  background-color: #cfd1d3;
+}
+body .trecaSekcija div {
+  display: inline-block;
+  padding: 2% 12% 2% 18%;
+}
+body .trecaSekcija div figure {
+  position: relative;
+  float: left;
+  width: 19%;
+  margin: 2% 2% 0% 2%;
+}
+body .trecaSekcija div figure img {
+  width: 100%;
+  max-height: 150px;
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
+}
+body .trecaSekcija div figure figcaption {
+  display: none;
+}
+body .trecaSekcija div figure:hover figcaption {
+  text-align: center;
+  padding: 0.5em 0 0.5em 0;
+  background-color: rgba(248, 201, 139, 0.671);
+  color: white;
+  width: 100%;
+  max-height: 2em;
+  display: inline-block;
+  position: absolute;
+  top: -1%;
+  left: 5.9%;
+}
+body .cetvrtaSekcija {
+  text-align: center;
+}
+body .cetvrtaSekcija h1 {
+  font: "Roboto", sans-serif;
+  color: #374249;
+  margin-bottom: 5%;
+}
+body .cetvrtaSekcija p {
+  color: #797979;
+  margin-bottom: 3%;
+}
+body .cetvrtaSekcija input {
+  display: none;
+}
+body .cetvrtaSekcija table, body .cetvrtaSekcija tr, body .cetvrtaSekcija td {
+  margin: auto;
+  padding: 0.2em;
+}
+body .cetvrtaSekcija tr {
+  width: 60%;
+}
+body .cetvrtaSekcija tr td {
+  width: 15%;
+}
+body .cetvrtaSekcija .prazno {
+  border: none;
+}
+body .cetvrtaSekcija .crveno {
+  background-color: #f75311;
+  color: white;
+}
+body .cetvrtaSekcija .crvenob {
+  background-color: #f75311;
+  color: white;
+  border: 1px solid grey;
+}
+body .cetvrtaSekcija .plavo {
+  background-color: #374249;
+  color: white;
+}
+body .cetvrtaSekcija .plavob {
+  background-color: #374249;
+  color: white;
+  border: 1px solid grey;
+}
+body .cetvrtaSekcija .belo {
+  background-color: white;
+  color: #797979;
+  border: 1px solid grey;
+}
+body .petaSekcija {
+  background-color: #cfd1d3;
+  position: relative;
+  min-height: 450px;
+}
+body .petaSekcija h1 {
+  color: #374249;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+body .petaSekcija div {
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  left: 19%;
+  margin: 2% auto 2% auto;
+}
+body .petaSekcija form {
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  left: 47%;
+  background-color: #f75311;
+  text-align: center;
+  margin: 2% auto 2% auto;
+  min-height: 4em;
+}
+body .petaSekcija form select {
+  float: left;
+  width: 19.5%;
+  margin: 1em;
+  padding: 1em;
+}
+body .petaSekcija form .prviRed {
+  float: left;
+  width: 67%;
+  margin: 1em;
+  padding: 1em;
+  color: #797979;
+}
+body .petaSekcija form .ceoRed {
+  width: 91%;
+  margin: 1em;
+  padding: 1em;
+  color: #797979;
+}
+body .petaSekcija form textarea {
+  width: 91%;
+  margin: 1em;
+  padding: 1em;
+  color: #797979;
+}
+body footer {
+  height: 1.5em;
+  padding-top: 0.4em;
+  background-color: #374249;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+body footer span {
+  color: #f75311;
+}
+
+@media screen and (max-width: 600px) {
+  body header nav .NewYork {
+    padding: 1em 2em 1em 2em;
+  }
+  body header nav .NewYork:hover {
+    text-decoration: underline;
+  }
+  body header nav ul li {
+    padding: 1em 1em 1em 1em;
+  }
+  body .drugaSekcija form {
+    margin-left: 30%;
+  }
+  body .trecaSekcija div figure {
+    width: 40%;
+  }
+  body .trecaSekcija div figure:hover figcaption {
+    left: 4.4%;
+  }
+  body .cetvrtaSekcija input {
+    display: none;
+  }
+  body .petaSekcija {
+    background-color: #cfd1d3;
+    position: relative;
+    min-height: 650px;
+  }
+  body .petaSekcija div {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    left: 25%;
+  }
+  body .petaSekcija form {
+    position: absolute;
+    top: 60%;
+    width: 80%;
+    left: 10%;
+    min-height: 2em;
+  }
+  body .petaSekcija form select {
+    width: 15%;
+  }
+  body .petaSekcija form .prviRed {
+    width: 67%;
+  }
+  body .petaSekcija form .ceoRed {
+    width: 87.5%;
+  }
+  body .petaSekcija form textarea {
+    width: 87.5%;
+  }
+}
+@media screen and (max-width: 300px) {
+  body header {
+    height: 16em;
+  }
+  body header nav .NewYork {
+    width: 100%;
+  }
+  body header nav ul {
+    text-align: center;
+    margin: 0 0 0 17%;
+  }
+  body header nav ul li {
+    display: block;
+  }
+  body .prvaSekcija {
+    position: relative;
+    background-image: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+  }
+  body .prvaSekcija div {
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    width: 85%;
+    height: 3em;
+    background-color: #46464677;
+    text-align: center;
+  }
+  body .prvaSekcija div h1 {
+    font: "Roboto", sans-serif;
+    margin: 0;
+  }
+  body .prvaSekcija div p {
+    font: "Roboto", sans-serif;
+    font-size: small;
+    margin: 0;
+    text-align: justify;
+  }
+  body .drugaSekcija form {
+    float: none;
+    margin-left: 25%;
+  }
+  body .drugaSekcija form input {
+    font-size: 6px;
+    width: 20%;
+  }
+  body .trecaSekcija div {
+    padding: 2% 12% 2% 2%;
+  }
+  body .trecaSekcija div figure {
+    width: 100%;
+  }
+  body .trecaSekcija div figure:hover figcaption {
+    left: 2.9%;
+  }
+  body .cetvrtaSekcija {
+    position: relative;
+    text-align: center;
+    min-height: 7em;
+  }
+  body .cetvrtaSekcija h1 {
+    font: "Roboto", sans-serif;
+    color: #374249;
+    margin-bottom: 5%;
+  }
+  body .cetvrtaSekcija p {
+    color: #797979;
+    margin-bottom: 3%;
+  }
+  body .cetvrtaSekcija input {
+    display: inline-block;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 20px;
+    border-style: groove;
+    background-color: white;
+    color: #797979;
+  }
+  body .cetvrtaSekcija table {
+    display: none;
+  }
+  body .petaSekcija {
+    background-color: #cfd1d3;
+    position: relative;
+    min-height: 700px;
+  }
+  body .petaSekcija div {
+    position: absolute;
+    top: 15%;
+    width: 80%;
+    left: 10%;
+  }
+  body .petaSekcija div .mapa {
+    width: 100%;
+  }
+  body .petaSekcija form {
+    position: absolute;
+    top: 60%;
+    width: 80%;
+    left: 10%;
+    min-height: 2em;
+  }
+  body .petaSekcija form select {
+    width: 20%;
+  }
+  body .petaSekcija form .prviRed {
+    width: 45%;
+  }
+  body .petaSekcija form .ceoRed {
+    width: 74.9%;
+  }
+  body .petaSekcija form textarea {
+    width: 74.9%;
+  }
+}
+
+/*# sourceMappingURL=sass.css.map */
